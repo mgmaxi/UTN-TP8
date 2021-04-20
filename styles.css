@@ -1,0 +1,78 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.shop {
+    display: flex;
+    flex-flow: row;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 85%;
+}
+
+figure {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(212, 203, 203);
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 3px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+figcaption, p {
+    margin: 5px;
+}
+
+button {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 30px;
+    width: auto;
+    outline: none;
+    margin: 5px 0;
+}
+
+.cartContainer {
+    padding: 30px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    display: flex;
+    flex-flow: column;
+    
+}
+
+table {
+	width: 300px;
+	height: auto;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.btnComprar {
+    margin-top: 10px;
+}
+
+.signoPeso {
+    text-align: right;
+}
+
+.trTotal {
+    font-weight: bold;
+}
